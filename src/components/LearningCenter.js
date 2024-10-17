@@ -88,7 +88,7 @@ const technologies = [
     description: 'A standard language for accessing and manipulating databases.',
     futureScope: 'Essential for data management and analytics.',
     resources: [
-      { title: 'SQL in 10 Minutes - Book', url: '/downloads/sql-in-10-minutes.pdf' },
+      { title: 'SQL in 10 Minutes - Book', url: '/downloads/sql.pdf' },
       { title: 'SQL Notes - PDF', url: '/downloads/sql-notes.pdf' },
     ],
   },

@@ -3,12 +3,15 @@ nav {
   color: white;
   padding: 1rem;
   display: flex;
-  justify-content: space-between; /* Align h2 and nav links apart */
+  justify-content: space-between; /* Align logo and nav links apart */
   align-items: center;
+  flex-wrap: wrap; /* Allows wrapping for smaller screens */
 }
 
-nav h2 {
-  margin: 0;
+nav img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; /* Adjust margin if needed */
 }
 
 .nav-links {
@@ -43,13 +46,39 @@ nav h2 {
   width: 100%; /* Expands underline on hover */
 }
 
-/* Optional: Responsive styling for smaller screens */
+/* Adjust the layout for smaller screens */
 @media (max-width: 768px) {
   nav {
-    flex-direction: column;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align content to the left */
   }
 
   .nav-links {
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    gap: 1rem;
+    width: 100%;
     margin-top: 1rem;
   }
+
+  .nav-links a {
+    width: 100%;
+    text-align: left; /* Align links to the left */
+    padding: 0.5rem 0; /* Adjust padding */
+  }
+}
+
+/* Optional: Add padding to nav for better mobile view */
+@media (max-width: 480px) {
+  nav {
+    padding: 1rem 0.5rem;
+  }
+
+  .nav-links a {
+    padding: 0.5rem;
+  }
+}
+.titel{
+  margin-left: 200px;
+  font-size: 30px;
 }

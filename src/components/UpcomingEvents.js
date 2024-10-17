@@ -11,7 +11,7 @@ const UpcomingEvents = () => {
 
   return (
     <section style={{ padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '8px' }}>
-      <h2 style={{ textAlign: 'center', marginBottom: '1.5em', color: '#333' }}>Upcoming Events</h2>
+      
       {events.map((event, index) => (
         <motion.div
           key={index}

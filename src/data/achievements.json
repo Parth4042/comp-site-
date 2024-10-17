@@ -2,22 +2,22 @@
     {
       "title": "Best Department Award 2023",
       "details": "Our department was awarded the Best Department Award for its exceptional performance in research and development.",
-      "image": "/images/award1.png"
+      "image": "/images/depaward.jpg"
     },
     {
       "title": "Coding Competition Winner",
       "details": "Our students won the national coding competition by developing innovative solutions using AI technologies.",
-      "image": "/images/competition.png"
+      "image": "/images/codwin.jpg"
     },
     {
       "title": "Published 50+ Research Papers",
       "details": "Faculty members of the department have collectively published over 50 research papers in renowned journals.",
-      "image": "/images/research.png"
+      "image": "/images/paper.jpg"
     },
     {
       "title": "Hackathon Champions",
       "details": "The department's team secured first place in the prestigious annual hackathon with a project focused on blockchain technology.",
-      "image": "/images/hackathon.png"
+      "image": "/images/hack.png"
     }
   ]
   

@@ -1,17 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import eventsData from '../data/events.json';
 import { motion } from 'framer-motion';
+import Modal from './Modal'; // Import the Modal component
 
 const UpcomingEvents = () => {
   const [events, setEvents] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false); // State to control modal visibility
+  const [selectedEvent, setSelectedEvent] = useState(null); // State to hold the selected event
 
   useEffect(() => {
     setEvents(eventsData);
   }, []);
 
+  const openModal = (event) => {
+    setSelectedEvent(event); // Set the selected event
+    setIsModalOpen(true); // Open the modal
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false); // Close the modal
+    setSelectedEvent(null); // Reset the selected event
+  };
+
   return (
     <section style={{ padding: '20px', backgroundColor: '#f9f9f9', borderRadius: '8px' }}>
-      
       {events.map((event, index) => (
         <motion.div
           key={index}
@@ -53,15 +65,19 @@ const UpcomingEvents = () => {
                 cursor: 'pointer',
                 transition: 'background-color 0.3s ease',
               }}
-              onClick={() => alert(`Viewing details for: ${event.title}`)} // Replace this with actual navigation logic
+              onClick={() => openModal(event)} // Open the modal with the event details
               onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#0056b3'} // Darker blue on hover
               onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#007BFF'} // Original blue
             >
-              View Details
+              View Poster
+              
             </button>
           </div>
         </motion.div>
       ))}
+
+      {/* Modal for displaying event details */}
+      <Modal isOpen={isModalOpen} onClose={closeModal} event={selectedEvent} />
     </section>
   );
 };

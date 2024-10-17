@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "Company Drive: ABC Technologies",
+      "description": "Join us for a recruitment drive with ABC Technologies. They are looking for fresh graduates in Computer Science and Engineering.",
+      "package": "₹8 LPA",
+      "date": "October 25, 2024",
+      "image": "../components/assets/comp.png",
+      "link": "https://www.google.com/about/careers/applications/jobs/results/80315719895392966-contact-center-ai-sales-specialist-iv-google-cloud"
+    },
+    {
+      "id": 2,
+      "title": "Midterm Exams",
+      "description": "Prepare for your midterm exams starting from November 2, 2024. Ensure to revise all your subjects thoroughly.",
+      "package": null,
+      "date": "November 2, 2024",
+      "image": "../components/assets/exam.png",
+      "link": null
+    },
+    {
+      "id": 3,
+      "title": "Coding Competition: Hackathon",
+      "description": "Participate in our coding competition, Hackathon, on November 10, 2024. Stand a chance to win exciting prizes!",
+      "package": "Prizes worth ₹50,000",
+      "date": "November 10, 2024",
+      "image": "../components/assets/hackathon.png", 
+      "link": "https://vision.hack2skill.com/event/aic2024/?utm_source=hack2skill&utm_medium=homepage"
+    }
+  ]
+  

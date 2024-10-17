@@ -78,7 +78,9 @@ nav img {
     padding: 0.5rem;
   }
 }
-.titel{
+
+.titel {
   margin-left: 200px;
-  font-size: 30px;
+  font-size: 25px;
+  font-family: "Vollkorn SC", serif; /* Apply font directly to the title */
 }

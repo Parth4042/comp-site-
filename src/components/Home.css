@@ -1,7 +1,104 @@
 /* Home.css */
 
+/* Background video hover effect */
 .blurred {
-    filter: blur(5px);
-    transition: filter 0.3s ease;
-  }
-  
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+}
+
+/* Apply gradient background for sections */
+body {
+  background: linear-gradient(135deg, #FFF8E8, #F7EED3); /* Light, elegant gradient */
+  font-family: 'Vollkorn SC', serif; /* Change font to Vollkorn SC */
+  color: #674636; /* Darker shade for text */
+}
+
+/* Styling for the video section */
+video {
+  object-fit: cover;
+  filter: brightness(0.9); /* Slight dimming to make text pop */
+}
+
+/* Title text for welcome section */
+h1 {
+  color: #FFF8E8; /* Soft white for text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+/* Achievements and Events section styling */
+section {
+  padding: 20px;
+  background: linear-gradient(135deg, #FFF8E8, #AAB396); /* Softer transition for content blocks */
+  margin: 40px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  color: #674636; /* Main text color */
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+
+p {
+  color: #674636;
+}
+
+/* Cards for achievements/events */
+.card {
+  background-color: #F7EED3; /* Light background for card */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 1.5em;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Slight lift on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 1em;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  background-color: #AAB396; /* Softer green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #674636; /* Darker hover state */
+}
+
+/* Font styling for headers and paragraphs */
+h1 {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 700; /* Use bold weight */
+}
+
+h2 {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 600; /* Use semi-bold weight */
+}
+
+p {
+  font-family: 'Vollkorn SC', serif;
+  font-weight: 400; /* Use regular weight */
+}

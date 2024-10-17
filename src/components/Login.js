@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import credentialsData from '../data/credentials.json';
 import { motion } from 'framer-motion';
-import './Login.css'; // Create a separate CSS file for better styling control
+import './Login.css'; // Updated CSS for styling
 
 const Login = () => {
   const [username, setUsername] = useState('');
@@ -24,42 +24,50 @@ const Login = () => {
   };
 
   return (
-    <motion.form
-      onSubmit={handleLogin}
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      className="login-form" // Applying the styles via a CSS class
-    >
-      <h2 className="form-title">Login</h2>
-      <input
-        type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        required
-        className="form-input"
-      />
-      <select
-        value={role}
-        onChange={(e) => setRole(e.target.value)}
-        required
-        className="form-input"
-      >
-        <option value="" disabled>Select Role</option>
-        <option value="student">Student</option>
-        <option value="faculty">Faculty</option>
-      </select>
-      <input
-        type="password"
-        placeholder="Password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        required
-        className="form-input"
-      />
-      <button type="submit" className="form-button">Login</button>
-    </motion.form>
+    <div className="login-page">
+      <div className="login-container">
+        <motion.form
+          onSubmit={handleLogin}
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="login-form"
+        >
+          <h2 className="form-title">Welcome Back</h2>
+          <p className="form-subtitle">Log in to continue</p>
+          <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            required
+            className="form-input"
+          />
+          <select
+            value={role}
+            onChange={(e) => setRole(e.target.value)}
+            required
+            className="form-input"
+          >
+            <option value="" disabled>Select Role</option>
+            <option value="student">Student</option>
+            <option value="faculty">Faculty</option>
+          </select>
+          <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+            className="form-input"
+          />
+         
+          <button type="submit" className="form-button primary-button">Log in</button>
+          
+        </motion.form>
+       
+      </div>
+    </div>
   );
 };
 

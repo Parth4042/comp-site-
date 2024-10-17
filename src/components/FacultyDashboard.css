@@ -1,69 +1,125 @@
 /* Main container */
 .dashboard-container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  /* Faculty Info Section */
-  .faculty-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-  }
-  
-  /* Faculty Image */
-  .faculty-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 2rem;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Faculty Details */
-  .faculty-details {
-    text-align: left;
-  }
-  
-  /* Faculty Name and Info */
-  .faculty-details h3 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .faculty-details p {
-    font-size: 1.1rem;
-    margin-bottom: 0.3rem;
-    color: #555;
-  }
-  
-  /* Action Buttons Section */
-  .dashboard-actions {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-  
-  /* Action Buttons */
-  .action-btn {
-    padding: 0.75rem 1.5rem;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-  }
-  
-  .action-btn:hover {
-    background-color: #0056b3;
-  }
-  
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Faculty Info Section */
+.faculty-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Faculty Image */
+.faculty-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 2rem;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Faculty Details */
+.faculty-details {
+  text-align: left;
+}
+
+/* Faculty Name and Info */
+.faculty-details h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.faculty-details p {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+/* Action Buttons Section */
+.dashboard-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Action Buttons */
+.action-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Attendance Section */
+.attendance-section,
+.marks-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Attendance and Marks Form */
+.attendance-form,
+.marks-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Form Elements */
+.attendance-form label,
+.marks-form label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.attendance-form input,
+.attendance-form select,
+.marks-form input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Attendance Table and Marks Table */
+.attendance-table,
+.marks-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.attendance-table th,
+.attendance-table td,
+.marks-table th,
+.marks-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.attendance-table th,
+.marks-table th {
+  background-color: #f2f2f2;
+}

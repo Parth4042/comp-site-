@@ -1,22 +1,22 @@
 [
     {
-      "title": "Best Department Award 2023",
-      "details": "Our department was awarded the Best Department Award for its exceptional performance in research and development.",
+      "title": "Best Department Award 2024",
+      "details": "In recognition of its unwavering commitment to excellence in education, innovation, and student development, the Computer Department of Amrutvahini College of Engineering, Sangamner, has been awarded the prestigious Best Department Award for 2024. This accolade celebrates the department's outstanding contributions to the field of computer science and engineering, marked by an exceptional curriculum, industry collaborations, and research initiatives. The dedicated faculty members, state-of-the-art facilities, and a vibrant learning environment have fostered a culture of creativity and critical thinking among students. Under the leadership of visionary educators, the department has successfully prepared graduates who are not only equipped with technical skills but also possess a strong sense of ethics and social responsibility. This award is a testament to the hard work and dedication of the entire department, motivating us to continue our journey of excellence and innovation in the ever-evolving landscape of technology.",
       "image": "/images/depaward.jpg"
     },
     {
       "title": "Coding Competition Winner",
-      "details": "Our students won the national coding competition by developing innovative solutions using AI technologies.",
+      "details": "The Computer Department at Amrutvahini College of Engineering, Sangamner, proudly announces its recent victory in the prestigious National Coding Competition 2024. This achievement highlights the exceptional coding skills, teamwork, and innovative thinking displayed by our talented students. Competing against numerous prestigious institutions, our team showcased their ability to solve complex problems under time constraints, demonstrating not only technical proficiency but also resilience and creativity. Guided by our dedicated faculty, who provided invaluable mentorship and support, the students excelled in various coding challenges that tested their knowledge in algorithms, data structures, and software development. This victory not only underscores the department's commitment to fostering a robust learning environment but also serves as an inspiration for future competitions. We celebrate this achievement as a testament to the hard work and passion of our students, who are well-equipped to make significant contributions to the tech industry.",
       "image": "/images/codwin.jpg"
     },
     {
       "title": "Published 50+ Research Papers",
-      "details": "Faculty members of the department have collectively published over 50 research papers in renowned journals.",
+      "details": "The Computer Department at Amrutvahini College of Engineering, Sangamner, has achieved a remarkable milestone by publishing over 50 research papers in esteemed national and international journals and conferences. This accomplishment underscores the department's commitment to advancing knowledge and contributing to the ever-evolving field of computer science and engineering. Our faculty and students have collaborated on innovative research projects spanning various domains, including artificial intelligence, machine learning, cybersecurity, and software development. These publications not only reflect rigorous academic inquiry and dedication but also enhance the department’s reputation in the global research community. By engaging in cutting-edge research, our team aims to address real-world challenges and inspire the next generation of engineers. This achievement serves as a testament to our ongoing pursuit of excellence and the dynamic learning environment fostered within the department.",
       "image": "/images/paper.jpg"
     },
     {
       "title": "Hackathon Champions",
-      "details": "The department's team secured first place in the prestigious annual hackathon with a project focused on blockchain technology.",
+      "details": "We are thrilled to announce that Team Neuronauts from the Computer Department at Amrutvahini College of Engineering, Sangamner, has emerged as champions in the recent prestigious hackathon competition. This remarkable achievement showcases the team's exceptional problem-solving skills, innovative thinking, and collaborative spirit. Competing against numerous talented teams from various institutions, Neuronauts developed an outstanding project that addressed real-world challenges through technology and creativity. Their innovative solution, which leverages cutting-edge advancements in artificial intelligence and machine learning, impressed the judges and captivated the audience. This victory not only highlights the technical expertise of our students but also reflects the strong support and mentorship provided by our dedicated faculty members. Team Neuronauts' success is a proud moment for our department, inspiring future participants to push boundaries and strive for excellence in technology and innovation.",
       "image": "/images/hack.png"
     }
   ]

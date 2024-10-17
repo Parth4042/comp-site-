@@ -27,7 +27,7 @@ h2 {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 15px;
-    width: 250px;
+    width: 250px; /* Adjust width as necessary */
     text-align: center;
     transition: transform 0.2s;
     cursor: pointer;
@@ -58,6 +58,13 @@ h2 {
 
 .card-btn:hover {
     background-color: #0056b3;
+}
+
+/* Logo styles */
+.tech-logo {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
 }
 
 /* Modal Styles */

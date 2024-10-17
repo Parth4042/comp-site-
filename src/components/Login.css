@@ -1,0 +1,67 @@
+/* Centering the form and adding styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 100px auto; /* Centers the form horizontally and vertically */
+    padding: 2rem;
+    background-color: #f4f4f9; /* Light background */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  /* Form title styling */
+  .form-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Styling for input fields */
+  .form-input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Highlight the border when the input is focused */
+  .form-input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none;
+  }
+  
+  /* Button styling */
+  .form-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Optional: Responsive design for smaller screens */
+  @media (max-width: 480px) {
+    .login-form {
+      padding: 1rem;
+      margin: 50px auto;
+    }
+  
+    .form-input, .form-button {
+      font-size: 0.9rem;
+    }
+  }
+  

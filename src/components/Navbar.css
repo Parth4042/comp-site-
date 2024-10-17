@@ -1,0 +1,55 @@
+nav {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; /* Align h2 and nav links apart */
+  align-items: center;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem; /* Adds space between links */
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem; /* Adds padding around the links */
+  position: relative;
+}
+
+.nav-links a:hover {
+  color: #ffcc00; /* Changes color on hover */
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #ffcc00;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links a:hover::after {
+  width: 100%; /* Expands underline on hover */
+}
+
+/* Optional: Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    margin-top: 1rem;
+  }
+}
